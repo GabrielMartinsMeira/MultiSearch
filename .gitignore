@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node / Frontend
+src/frontend/node_modules/
+src/frontend/dist/
+src/frontend/dist-ssr/
+*.local
+
+# Java / Maven / Backend
+src/backend/target/
+src/backend/*.class
+src/backend/*.jar
+src/backend/*.war
+src/backend/*.ear
+src/backend/.mvn/
+src/backend/mvnw
+src/backend/mvnw.cmd
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
