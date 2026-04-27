@@ -1,0 +1,227 @@
+[
+  {
+    "TotalCost": 8450,
+    "PurchaseOrderID": 80001,
+    "MaterialID": "DS-45",
+    "Quantity": 320,
+    "Supplier": "Ferramentas Brasil 1",
+    "DeliveryDate": "2026-05-02",
+    "MaterialName": "Disco de Corte para Metal 4.5 Pol"
+  },
+  {
+    "TotalCost": 12990,
+    "PurchaseOrderID": 80002,
+    "MaterialID": "BR-MET",
+    "Quantity": 150,
+    "Supplier": "Ferramentas Brasil 2",
+    "DeliveryDate": "2026-05-03",
+    "MaterialName": "Jogo de Brocas para Metal"
+  },
+  {
+    "TotalCost": 5320,
+    "PurchaseOrderID": 80003,
+    "MaterialID": "PF-M6",
+    "Quantity": 2000,
+    "Supplier": "Fixadores Sul 3",
+    "DeliveryDate": "2026-05-04",
+    "MaterialName": "Parafuso Sextavado M6x30"
+  },
+  {
+    "TotalCost": 2870,
+    "PurchaseOrderID": 80004,
+    "MaterialID": "PC-M6",
+    "Quantity": 3000,
+    "Supplier": "Fixadores Sul 4",
+    "DeliveryDate": "2026-05-05",
+    "MaterialName": "Porca Sextavada M6"
+  },
+  {
+    "TotalCost": 9650,
+    "PurchaseOrderID": 80005,
+    "MaterialID": "OL-MOT",
+    "Quantity": 500,
+    "Supplier": "Lubrificantes Pro 5",
+    "DeliveryDate": "2026-05-06",
+    "MaterialName": "Óleo Lubrificante Multiuso"
+  },
+  {
+    "TotalCost": 7430,
+    "PurchaseOrderID": 80006,
+    "MaterialID": "GR-IND",
+    "Quantity": 420,
+    "Supplier": "Lubrificantes Pro 6",
+    "DeliveryDate": "2026-05-07",
+    "MaterialName": "Graxa Industrial"
+  },
+  {
+    "TotalCost": 6150,
+    "PurchaseOrderID": 80007,
+    "MaterialID": "FL-LIMP",
+    "Quantity": 610,
+    "Supplier": "Quimicos Industriais 7",
+    "DeliveryDate": "2026-05-08",
+    "MaterialName": "Spray Desengripante"
+  },
+  {
+    "TotalCost": 11200,
+    "PurchaseOrderID": 80008,
+    "MaterialID": "LM-SC",
+    "Quantity": 210,
+    "Supplier": "Ferramentas Brasil 8",
+    "DeliveryDate": "2026-05-09",
+    "MaterialName": "Disco para Serra Circular"
+  },
+  {
+    "TotalCost": 4580,
+    "PurchaseOrderID": 80009,
+    "MaterialID": "LM-TT",
+    "Quantity": 350,
+    "Supplier": "Ferramentas Brasil 9",
+    "DeliveryDate": "2026-05-10",
+    "MaterialName": "Lâmina para Serra Tico-Tico"
+  },
+  {
+    "TotalCost": 3390,
+    "PurchaseOrderID": 80010,
+    "MaterialID": "FI-ISO",
+    "Quantity": 800,
+    "Supplier": "Eletrica Sul 10",
+    "DeliveryDate": "2026-05-11",
+    "MaterialName": "Fita Isolante 20m"
+  },
+  {
+    "TotalCost": 2780,
+    "PurchaseOrderID": 80011,
+    "MaterialID": "AB-100",
+    "Quantity": 1500,
+    "Supplier": "Fixadores Sul 11",
+    "DeliveryDate": "2026-05-12",
+    "MaterialName": "Abraçadeira de Nylon 100mm"
+  },
+  {
+    "TotalCost": 5250,
+    "PurchaseOrderID": 80012,
+    "MaterialID": "BU-NYL",
+    "Quantity": 1200,
+    "Supplier": "Fixadores Sul 12",
+    "DeliveryDate": "2026-05-13",
+    "MaterialName": "Bucha de Nylon nº10"
+  },
+  {
+    "TotalCost": 6890,
+    "PurchaseOrderID": 80013,
+    "MaterialID": "AN-BOR",
+    "Quantity": 950,
+    "Supplier": "Vedacoes Industriais 13",
+    "DeliveryDate": "2026-05-14",
+    "MaterialName": "Anel de Vedação Borracha"
+  },
+  {
+    "TotalCost": 11450,
+    "PurchaseOrderID": 80014,
+    "MaterialID": "AD-EPO",
+    "Quantity": 300,
+    "Supplier": "Quimicos Industriais 14",
+    "DeliveryDate": "2026-05-15",
+    "MaterialName": "Adesivo Epóxi Industrial"
+  },
+  {
+    "TotalCost": 9750,
+    "PurchaseOrderID": 80015,
+    "MaterialID": "SI-IND",
+    "Quantity": 410,
+    "Supplier": "Quimicos Industriais 15",
+    "DeliveryDate": "2026-05-16",
+    "MaterialName": "Silicone Industrial"
+  },
+  {
+    "TotalCost": 13200,
+    "PurchaseOrderID": 80016,
+    "MaterialID": "BT-HSS",
+    "Quantity": 260,
+    "Supplier": "Ferramentas Brasil 16",
+    "DeliveryDate": "2026-05-17",
+    "MaterialName": "Jogo de Bits HSS para Parafusadeira"
+  },
+  {
+    "TotalCost": 8900,
+    "PurchaseOrderID": 80017,
+    "MaterialID": "BR-SET",
+    "Quantity": 180,
+    "Supplier": "Ferramentas Brasil 17",
+    "DeliveryDate": "2026-05-18",
+    "MaterialName": "Jogo de Brocas para Concreto"
+  },
+  {
+    "TotalCost": 7400,
+    "PurchaseOrderID": 80018,
+    "MaterialID": "DL-CC",
+    "Quantity": 500,
+    "Supplier": "Ferramentas Brasil 18",
+    "DeliveryDate": "2026-05-19",
+    "MaterialName": "Disco de Lixa para Madeira"
+  },
+  {
+    "TotalCost": 6100,
+    "PurchaseOrderID": 80019,
+    "MaterialID": "CX-PAR",
+    "Quantity": 220,
+    "Supplier": "Organizacao Pro 19",
+    "DeliveryDate": "2026-05-20",
+    "MaterialName": "Caixa Organizadora de Parafusos"
+  },
+  {
+    "TotalCost": 8200,
+    "PurchaseOrderID": 80020,
+    "MaterialID": "EP-LUV",
+    "Quantity": 340,
+    "Supplier": "EPIs Brasil 20",
+    "DeliveryDate": "2026-05-21",
+    "MaterialName": "Luva de Proteção em Couro"
+  },
+  {
+    "TotalCost": 5400,
+    "PurchaseOrderID": 80021,
+    "MaterialID": "EP-OCU",
+    "Quantity": 390,
+    "Supplier": "EPIs Brasil 21",
+    "DeliveryDate": "2026-05-22",
+    "MaterialName": "Óculos de Proteção"
+  },
+  {
+    "TotalCost": 15000,
+    "PurchaseOrderID": 80022,
+    "MaterialID": "DS-45",
+    "Quantity": 600,
+    "Supplier": "Ferramentas Brasil 22",
+    "DeliveryDate": "2026-05-23",
+    "MaterialName": "Disco de Corte para Metal 4.5 Pol"
+  },
+  {
+    "TotalCost": 13400,
+    "PurchaseOrderID": 80023,
+    "MaterialID": "BR-MET",
+    "Quantity": 210,
+    "Supplier": "Ferramentas Brasil 23",
+    "DeliveryDate": "2026-05-24",
+    "MaterialName": "Jogo de Brocas para Metal"
+  },
+  {
+    "TotalCost": 7200,
+    "PurchaseOrderID": 80024,
+    "MaterialID": "FL-LIMP",
+    "Quantity": 700,
+    "Supplier": "Quimicos Industriais 24",
+    "DeliveryDate": "2026-05-25",
+    "MaterialName": "Spray Desengripante"
+  },
+  {
+    "TotalCost": 9800,
+    "PurchaseOrderID": 80025,
+    "MaterialID": "LM-SC",
+    "Quantity": 260,
+    "Supplier": "Ferramentas Brasil 25",
+    "DeliveryDate": "2026-05-26",
+    "MaterialName": "Disco para Serra Circular"
+  }
+]

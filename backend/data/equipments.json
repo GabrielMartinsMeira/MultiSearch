@@ -1,0 +1,90 @@
+﻿[
+    {
+        "EquipmentName": "Furadeira de Impacto Profissional",
+        "EquipmentID": "FT-01"
+    },
+    {
+        "EquipmentName": "Parafusadeira a Bateria 20V",
+        "EquipmentID": "PF-02"
+    },
+    {
+        "EquipmentName": "Esmerilhadeira Angular 4.5 Pol",
+        "EquipmentID": "ES-03"
+    },
+    {
+        "EquipmentName": "Serra Circular 7 1/4 Pol",
+        "EquipmentID": "SC-04"
+    },
+    {
+        "EquipmentName": "Serra Tico-Tico",
+        "EquipmentID": "TT-05"
+    },
+    {
+        "EquipmentName": "Lixadeira Orbital",
+        "EquipmentID": "LX-06"
+    },
+    {
+        "EquipmentName": "Chave de Impacto Pneumática",
+        "EquipmentID": "CI-07"
+    },
+    {
+        "EquipmentName": "Compressor de Ar 100L",
+        "EquipmentID": "CP-08"
+    },
+    {
+        "EquipmentName": "Pistola de Pintura HVLP",
+        "EquipmentID": "PP-09"
+    },
+    {
+        "EquipmentName": "Kit de Chaves Combinadas",
+        "EquipmentID": "KC-10"
+    },
+    {
+        "EquipmentName": "Jogo de Soquetes Profissional",
+        "EquipmentID": "JS-11"
+    },
+    {
+        "EquipmentName": "Alicate Universal Isolado",
+        "EquipmentID": "AL-12"
+    },
+    {
+        "EquipmentName": "Multímetro Digital",
+        "EquipmentID": "MT-13"
+    },
+    {
+        "EquipmentName": "Trena a Laser 50m",
+        "EquipmentID": "TL-14"
+    },
+    {
+        "EquipmentName": "Nível a Laser",
+        "EquipmentID": "NL-15"
+    },
+    {
+        "EquipmentName": "Martelete Perfurador SDS",
+        "EquipmentID": "MP-16"
+    },
+    {
+        "EquipmentName": "Cortador de Piso Elétrico",
+        "EquipmentID": "CP-17"
+    },
+    {
+        "EquipmentName": "Bancada de Trabalho Ajustável",
+        "EquipmentID": "BT-18"
+    },
+    {
+        "EquipmentName": "Organizador de Ferramentas Modular",
+        "EquipmentID": "OF-19"
+    },
+    {
+        "EquipmentName": "Gerador de Energia Portátil",
+        "EquipmentID": "GE-20"
+    },
+    {
+        "EquipmentName": "Lanterna LED Recarregável",
+        "EquipmentID": "LD-21"
+    },
+    {
+        "EquipmentName": "Detector de Metais e Fiação",
+        "EquipmentID": "DM-22"
+    }
+]

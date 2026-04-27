@@ -1,0 +1,227 @@
+[
+  {
+    "SalesOrderID": 50001,
+    "MaterialID": "PF-02",
+    "TotalValue": 4200,
+    "Customer": "Construtora Silva",
+    "Quantity": 6,
+    "DeliveryDate": "2026-06-02",
+    "MaterialName": "Parafusadeira a Bateria 20V"
+  },
+  {
+    "SalesOrderID": 50002,
+    "MaterialID": "FT-01",
+    "TotalValue": 3150,
+    "Customer": "Reformas Express",
+    "Quantity": 5,
+    "DeliveryDate": "2026-06-03",
+    "MaterialName": "Furadeira de Impacto Profissional"
+  },
+  {
+    "SalesOrderID": 50003,
+    "MaterialID": "ES-03",
+    "TotalValue": 2800,
+    "Customer": "Metalurgica Souza",
+    "Quantity": 4,
+    "DeliveryDate": "2026-06-04",
+    "MaterialName": "Esmerilhadeira Angular 4.5 Pol"
+  },
+  {
+    "SalesOrderID": 50004,
+    "MaterialID": "SC-04",
+    "TotalValue": 3900,
+    "Customer": "Carpintaria Oliveira",
+    "Quantity": 3,
+    "DeliveryDate": "2026-06-05",
+    "MaterialName": "Serra Circular 7 1/4 Pol"
+  },
+  {
+    "SalesOrderID": 50005,
+    "MaterialID": "TT-05",
+    "TotalValue": 1850,
+    "Customer": "Moveis Planejados Costa",
+    "Quantity": 5,
+    "DeliveryDate": "2026-06-06",
+    "MaterialName": "Serra Tico-Tico"
+  },
+  {
+    "SalesOrderID": 50006,
+    "MaterialID": "LX-06",
+    "TotalValue": 2600,
+    "Customer": "Acabamentos Premium",
+    "Quantity": 4,
+    "DeliveryDate": "2026-06-07",
+    "MaterialName": "Lixadeira Orbital"
+  },
+  {
+    "SalesOrderID": 50007,
+    "MaterialID": "CI-07",
+    "TotalValue": 5400,
+    "Customer": "Auto Center Brasil",
+    "Quantity": 6,
+    "DeliveryDate": "2026-06-08",
+    "MaterialName": "Chave de Impacto Pneumática"
+  },
+  {
+    "SalesOrderID": 50008,
+    "MaterialID": "CP-08",
+    "TotalValue": 8800,
+    "Customer": "Oficina Diesel Sul",
+    "Quantity": 4,
+    "DeliveryDate": "2026-06-09",
+    "MaterialName": "Compressor de Ar 100L"
+  },
+  {
+    "SalesOrderID": 50009,
+    "MaterialID": "PP-09",
+    "TotalValue": 3200,
+    "Customer": "Pintura Automotiva Top",
+    "Quantity": 5,
+    "DeliveryDate": "2026-06-10",
+    "MaterialName": "Pistola de Pintura HVLP"
+  },
+  {
+    "SalesOrderID": 50010,
+    "MaterialID": "KC-10",
+    "TotalValue": 1500,
+    "Customer": "Manutencao Geral Ltda",
+    "Quantity": 10,
+    "DeliveryDate": "2026-06-11",
+    "MaterialName": "Kit de Chaves Combinadas"
+  },
+  {
+    "SalesOrderID": 50011,
+    "MaterialID": "JS-11",
+    "TotalValue": 2700,
+    "Customer": "Auto Center Brasil",
+    "Quantity": 6,
+    "DeliveryDate": "2026-06-12",
+    "MaterialName": "Jogo de Soquetes Profissional"
+  },
+  {
+    "SalesOrderID": 50012,
+    "MaterialID": "AL-12",
+    "TotalValue": 900,
+    "Customer": "Eletrica Rápida",
+    "Quantity": 9,
+    "DeliveryDate": "2026-06-13",
+    "MaterialName": "Alicate Universal Isolado"
+  },
+  {
+    "SalesOrderID": 50013,
+    "MaterialID": "MT-13",
+    "TotalValue": 3100,
+    "Customer": "Tecnicos Eletricos SC",
+    "Quantity": 4,
+    "DeliveryDate": "2026-06-14",
+    "MaterialName": "Multímetro Digital"
+  },
+  {
+    "SalesOrderID": 50014,
+    "MaterialID": "TL-14",
+    "TotalValue": 4500,
+    "Customer": "Engenharia Precision",
+    "Quantity": 3,
+    "DeliveryDate": "2026-06-15",
+    "MaterialName": "Trena a Laser 50m"
+  },
+  {
+    "SalesOrderID": 50015,
+    "MaterialID": "NL-15",
+    "TotalValue": 5200,
+    "Customer": "Construtora Silva",
+    "Quantity": 4,
+    "DeliveryDate": "2026-06-16",
+    "MaterialName": "Nível a Laser"
+  },
+  {
+    "SalesOrderID": 50016,
+    "MaterialID": "MP-16",
+    "TotalValue": 6700,
+    "Customer": "Obras Pesadas Ltda",
+    "Quantity": 3,
+    "DeliveryDate": "2026-06-17",
+    "MaterialName": "Martelete Perfurador SDS"
+  },
+  {
+    "SalesOrderID": 50017,
+    "MaterialID": "CP-17",
+    "TotalValue": 7800,
+    "Customer": "Pisos & Revestimentos",
+    "Quantity": 2,
+    "DeliveryDate": "2026-06-18",
+    "MaterialName": "Cortador de Piso Elétrico"
+  },
+  {
+    "SalesOrderID": 50018,
+    "MaterialID": "BT-18",
+    "TotalValue": 3400,
+    "Customer": "Oficina Criativa",
+    "Quantity": 4,
+    "DeliveryDate": "2026-06-19",
+    "MaterialName": "Bancada de Trabalho Ajustável"
+  },
+  {
+    "SalesOrderID": 50019,
+    "MaterialID": "OF-19",
+    "TotalValue": 2100,
+    "Customer": "Manutencao Geral Ltda",
+    "Quantity": 6,
+    "DeliveryDate": "2026-06-20",
+    "MaterialName": "Organizador de Ferramentas Modular"
+  },
+  {
+    "SalesOrderID": 50020,
+    "MaterialID": "GE-20",
+    "TotalValue": 12500,
+    "Customer": "Eventos e Obras SC",
+    "Quantity": 2,
+    "DeliveryDate": "2026-06-21",
+    "MaterialName": "Gerador de Energia Portátil"
+  },
+  {
+    "SalesOrderID": 50021,
+    "MaterialID": "LD-21",
+    "TotalValue": 1800,
+    "Customer": "Seguranca Industrial SC",
+    "Quantity": 6,
+    "DeliveryDate": "2026-06-22",
+    "MaterialName": "Lanterna LED Recarregável"
+  },
+  {
+    "SalesOrderID": 50022,
+    "MaterialID": "DM-22",
+    "TotalValue": 2900,
+    "Customer": "Engenharia Precision",
+    "Quantity": 3,
+    "DeliveryDate": "2026-06-23",
+    "MaterialName": "Detector de Metais e Fiação"
+  },
+  {
+    "SalesOrderID": 50023,
+    "MaterialID": "PF-02",
+    "TotalValue": 3500,
+    "Customer": "Construtora Silva",
+    "Quantity": 5,
+    "DeliveryDate": "2026-06-24",
+    "MaterialName": "Parafusadeira a Bateria 20V"
+  },
+  {
+    "SalesOrderID": 50024,
+    "MaterialID": "FT-01",
+    "TotalValue": 2600,
+    "Customer": "Reformas Express",
+    "Quantity": 4,
+    "DeliveryDate": "2026-06-25",
+    "MaterialName": "Furadeira de Impacto Profissional"
+  },
+  {
+    "SalesOrderID": 50025,
+    "MaterialID": "ES-03",
+    "TotalValue": 2100,
+    "Customer": "Metalurgica Souza",
+    "Quantity": 3,
+    "DeliveryDate": "2026-06-26",
+    "MaterialName": "Esmerilhadeira Angular 4.5 Pol"
+  }
+]
