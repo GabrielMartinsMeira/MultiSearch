@@ -1,0 +1,89 @@
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-input-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  width: 20px;
+  height: 20px;
+  color: var(--text-light);
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 1rem 1rem 3rem;
+  font-size: 1.1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+  background-color: var(--surface-bg);
+  color: var(--text-dark);
+}
+
+.search-input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(102, 204, 102, 0.25);
+}
+
+.suggestions-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  right: 0;
+  background-color: var(--surface-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  list-style: none;
+  overflow: hidden;
+  z-index: 10;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestion-item {
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-dark);
+}
+
+.suggestion-item:hover,
+.suggestion-item.active {
+  background-color: var(--surface-hover);
+  color: var(--primary-color);
+}
+
+.suggestion-group {
+  color: var(--text-light);
+  font-size: 0.85em;
+  margin-left: 6px;
+}
+
+.suggestion-item.no-suggestions {
+  color: var(--text-light);
+  font-style: italic;
+  cursor: default;
+  text-align: center;
+  padding: 1rem;
+}
+
+.suggestion-item.no-suggestions:hover {
+  background-color: transparent;
+}
