@@ -1,0 +1,90 @@
+[
+  {
+    "MaterialID": "BT-HSS",
+    "MaterialName": "Jogo de Bits HSS para Parafusadeira"
+  },
+  {
+    "MaterialID": "DS-45",
+    "MaterialName": "Disco de Corte para Metal 4.5 Pol"
+  },
+  {
+    "MaterialID": "DL-CC",
+    "MaterialName": "Disco de Lixa para Madeira"
+  },
+  {
+    "MaterialID": "BR-SET",
+    "MaterialName": "Jogo de Brocas para Concreto"
+  },
+  {
+    "MaterialID": "BR-MET",
+    "MaterialName": "Jogo de Brocas para Metal"
+  },
+  {
+    "MaterialID": "PF-M6",
+    "MaterialName": "Parafuso Sextavado M6x30"
+  },
+  {
+    "MaterialID": "PC-M6",
+    "MaterialName": "Porca Sextavada M6"
+  },
+  {
+    "MaterialID": "AR-GAL",
+    "MaterialName": "Arame Galvanizado"
+  },
+  {
+    "MaterialID": "OL-MOT",
+    "MaterialName": "Óleo Lubrificante Multiuso"
+  },
+  {
+    "MaterialID": "GR-IND",
+    "MaterialName": "Graxa Industrial"
+  },
+  {
+    "MaterialID": "FL-LIMP",
+    "MaterialName": "Spray Desengripante"
+  },
+  {
+    "MaterialID": "LM-TT",
+    "MaterialName": "Lâmina para Serra Tico-Tico"
+  },
+  {
+    "MaterialID": "LM-SC",
+    "MaterialName": "Disco para Serra Circular"
+  },
+  {
+    "MaterialID": "FI-ISO",
+    "MaterialName": "Fita Isolante 20m"
+  },
+  {
+    "MaterialID": "AB-100",
+    "MaterialName": "Abraçadeira de Nylon 100mm"
+  },
+  {
+    "MaterialID": "AN-BOR",
+    "MaterialName": "Anel de Vedação Borracha"
+  },
+  {
+    "MaterialID": "BU-NYL",
+    "MaterialName": "Bucha de Nylon nº10"
+  },
+  {
+    "MaterialID": "EP-LUV",
+    "MaterialName": "Luva de Proteção em Couro"
+  },
+  {
+    "MaterialID": "EP-OCU",
+    "MaterialName": "Óculos de Proteção"
+  },
+  {
+    "MaterialID": "CX-PAR",
+    "MaterialName": "Caixa Organizadora de Parafusos"
+  },
+  {
+    "MaterialID": "AD-EPO",
+    "MaterialName": "Adesivo Epóxi Industrial"
+  },
+  {
+    "MaterialID": "SI-IND",
+    "MaterialName": "Silicone Industrial"
+  }
+]
