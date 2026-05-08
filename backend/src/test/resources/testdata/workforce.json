@@ -1,0 +1,12 @@
+[
+  {
+    "WorkforceID": 301,
+    "Name": "Carlos Eduardo Ribeiro",
+    "Shift": "Turno A"
+  },
+  {
+    "WorkforceID": 302,
+    "Name": "Juliana Fernandes",
+    "Shift": "Turno B"
+  }
+]
