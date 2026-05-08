@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import { translateKey } from '../translations';
 import './SearchResults.css';
 
@@ -87,6 +88,15 @@ function PaginatedTable({ group, highlightedTerm, itemsPerPage = 15 }) {
   );
 }
 
+PaginatedTable.propTypes = {
+  group: PropTypes.shape({
+    category: PropTypes.string,
+    items: PropTypes.arrayOf(PropTypes.object).isRequired,
+  }).isRequired,
+  highlightedTerm: PropTypes.string,
+  itemsPerPage: PropTypes.number,
+};
+
 function SearchResults({ results, highlightedTerm }) {
   if (!results || results.length === 0) {
     return (
@@ -112,5 +122,15 @@ function SearchResults({ results, highlightedTerm }) {
     </div>
   );
 }
+
+SearchResults.propTypes = {
+  results: PropTypes.arrayOf(
+    PropTypes.shape({
+      category: PropTypes.string,
+      items: PropTypes.arrayOf(PropTypes.object).isRequired,
+    })
+  ).isRequired,
+  highlightedTerm: PropTypes.string,
+};
 
 export default SearchResults;

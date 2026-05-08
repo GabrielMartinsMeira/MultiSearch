@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import './SearchBar.css';
 
 function SearchBar({ query, onQueryChange, suggestions = [], isSearching, onSearch, onSuggestionSelect }) {
@@ -42,7 +43,7 @@ function SearchBar({ query, onQueryChange, suggestions = [], isSearching, onSear
 
     if (e.key === 'ArrowDown') {
       e.preventDefault();
-      setActiveSuggestionIndex((prev) => 
+      setActiveSuggestionIndex((prev) =>
         prev < suggestions.length - 1 ? prev + 1 : prev
       );
     } else if (e.key === 'ArrowUp') {
@@ -78,19 +79,22 @@ function SearchBar({ query, onQueryChange, suggestions = [], isSearching, onSear
           onFocus={() => setShowSuggestions(true)}
         />
         {showSuggestions && query.trim() !== '' && (
-          <ul className="suggestions-dropdown">
+          <ul className="suggestions-dropdown" role="listbox">
             {suggestions.length > 0 ? (
               suggestions.map((sugObj, idx) => (
                 <li
                   key={idx}
+                  role="option"
+                  aria-selected={idx === activeSuggestionIndex}
+                  aria-label={sugObj.text}
                   className={`suggestion-item ${idx === activeSuggestionIndex ? 'active' : ''}`}
                   onClick={() => handleSuggestionClick(sugObj.text)}
                 >
                   {(() => {
                     const parts = sugObj.text.split(new RegExp(`(${query})`, 'gi'));
-                    return parts.map((part, i) => 
-                      part.toLowerCase() === query.toLowerCase() 
-                        ? <strong key={i}>{part}</strong> 
+                    return parts.map((part, i) =>
+                      part.toLowerCase() === query.toLowerCase()
+                        ? <strong key={i}>{part}</strong>
                         : part
                     );
                   })()}
@@ -112,5 +116,19 @@ function SearchBar({ query, onQueryChange, suggestions = [], isSearching, onSear
     </div>
   );
 }
+
+SearchBar.propTypes = {
+  query: PropTypes.string.isRequired,
+  onQueryChange: PropTypes.func.isRequired,
+  suggestions: PropTypes.arrayOf(
+    PropTypes.shape({
+      text: PropTypes.string.isRequired,
+      group: PropTypes.string.isRequired,
+    })
+  ),
+  isSearching: PropTypes.bool,
+  onSearch: PropTypes.func,
+  onSuggestionSelect: PropTypes.func,
+};
 
 export default SearchBar;

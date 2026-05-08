@@ -1,0 +1,20 @@
+[
+  {
+    "SalesOrderID": 90001,
+    "MaterialID": "PF-02",
+    "TotalValue": 4200,
+    "Customer": "Construtora Silva",
+    "Quantity": 6,
+    "DeliveryDate": "2026-06-02",
+    "MaterialName": "Parafusadeira a Bateria 20V"
+  },
+  {
+    "SalesOrderID": 90002,
+    "MaterialID": "FT-01",
+    "TotalValue": 3150,
+    "Customer": "Reformas Express",
+    "Quantity": 5,
+    "DeliveryDate": "2026-06-03",
+    "MaterialName": "Furadeira de Impacto Profissional"
+  }
+]

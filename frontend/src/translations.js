@@ -1,4 +1,4 @@
-export const dictionary = {
+const dictionary = {
   EquipmentID: "ID do Equipamento",
   EquipmentName: "Nome do Equipamento",
   MaterialID: "ID do Material",
