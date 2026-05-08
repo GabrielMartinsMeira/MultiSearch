@@ -3,10 +3,6 @@ import SearchBar from './components/SearchBar';
 import SearchResults from './components/SearchResults';
 import { translateKey } from './translations';
 import './App.css';
-<<<<<<< HEAD
-=======
-// import data from '../data/data.json'; 
->>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
 
 function App() {
   const [query, setQuery] = useState('');
@@ -24,46 +20,6 @@ function App() {
     }
   }, [isDarkMode]);
 
-<<<<<<< HEAD
-=======
-  /* 
-  const categoryNames = {
-    sales_orders: 'Pedidos de Venda',
-    purchase_orders: 'Pedidos de Compra',
-    equipments: 'Equipamentos',
-    materials: 'Materiais',
-    workforce: 'Mão de Obra'
-  };
-
-  const resultsAndSuggestions = useMemo(() => {
-    if (!query.trim()) return { results: null, suggestions: [] };
-    const lowerQuery = query.toLowerCase();
-    const matchedCategories = [];
-    const suggestionsMap = new Map();
-
-    for (const [key, items] of Object.entries(data)) {
-      const matchedItems = items.filter(item => {
-        let isMatch = false;
-        for (const [propName, val] of Object.entries(item)) {
-          const stringValue = String(val);
-          if (stringValue.toLowerCase().includes(lowerQuery)) {
-            isMatch = true;
-            if (!suggestionsMap.has(stringValue)) {
-              suggestionsMap.set(stringValue, { text: stringValue, group: translateKey(propName) });
-            }
-          }
-        }
-        return isMatch;
-      });
-      if (matchedItems.length > 0) {
-        matchedCategories.push({ category: categoryNames[key] || key, items: matchedItems });
-      }
-    }
-    return { results: matchedCategories, suggestions: Array.from(suggestionsMap.values()).slice(0, 6) };
-  }, [query]);
-  */
-
->>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
   const [results, setResults] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);

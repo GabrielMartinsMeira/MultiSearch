@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 import { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-=======
-import React, { useState, useEffect, useRef } from 'react';
->>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
 import './SearchBar.css';
 
 function SearchBar({ query, onQueryChange, suggestions = [], isSearching, onSearch, onSuggestionSelect }) {
@@ -47,11 +43,7 @@ function SearchBar({ query, onQueryChange, suggestions = [], isSearching, onSear
 
     if (e.key === 'ArrowDown') {
       e.preventDefault();
-<<<<<<< HEAD
       setActiveSuggestionIndex((prev) =>
-=======
-      setActiveSuggestionIndex((prev) => 
->>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
         prev < suggestions.length - 1 ? prev + 1 : prev
       );
     } else if (e.key === 'ArrowUp') {
@@ -87,35 +79,22 @@ function SearchBar({ query, onQueryChange, suggestions = [], isSearching, onSear
           onFocus={() => setShowSuggestions(true)}
         />
         {showSuggestions && query.trim() !== '' && (
-<<<<<<< HEAD
           <ul className="suggestions-dropdown" role="listbox">
-=======
-          <ul className="suggestions-dropdown">
->>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
             {suggestions.length > 0 ? (
               suggestions.map((sugObj, idx) => (
                 <li
                   key={idx}
-<<<<<<< HEAD
                   role="option"
                   aria-selected={idx === activeSuggestionIndex}
                   aria-label={sugObj.text}
-=======
->>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
                   className={`suggestion-item ${idx === activeSuggestionIndex ? 'active' : ''}`}
                   onClick={() => handleSuggestionClick(sugObj.text)}
                 >
                   {(() => {
                     const parts = sugObj.text.split(new RegExp(`(${query})`, 'gi'));
-<<<<<<< HEAD
                     return parts.map((part, i) =>
                       part.toLowerCase() === query.toLowerCase()
                         ? <strong key={i}>{part}</strong>
-=======
-                    return parts.map((part, i) => 
-                      part.toLowerCase() === query.toLowerCase() 
-                        ? <strong key={i}>{part}</strong> 
->>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
                         : part
                     );
                   })()}
@@ -138,7 +117,6 @@ function SearchBar({ query, onQueryChange, suggestions = [], isSearching, onSear
   );
 }
 
-<<<<<<< HEAD
 SearchBar.propTypes = {
   query: PropTypes.string.isRequired,
   onQueryChange: PropTypes.func.isRequired,
@@ -153,6 +131,4 @@ SearchBar.propTypes = {
   onSuggestionSelect: PropTypes.func,
 };
 
-=======
->>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
 export default SearchBar;
