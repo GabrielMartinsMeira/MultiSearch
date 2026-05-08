@@ -46,7 +46,8 @@ public class GlobalExceptionHandler {
 
     /**
      * Handles POST/PUT/DELETE on GET-only endpoints.
-     * Without this, the generic {@link Exception} catch-all returns 500 instead of 405.
+     * Without this, the generic {@link Exception} catch-all returns 500 instead of
+     * 405.
      */
     @ExceptionHandler(HttpRequestMethodNotSupportedException.class)
     public ResponseEntity<ApiError> handleMethodNotSupported(HttpRequestMethodNotSupportedException ex) {

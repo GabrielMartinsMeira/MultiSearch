@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const dictionary = {
+=======
+export const dictionary = {
+>>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
   EquipmentID: "ID do Equipamento",
   EquipmentName: "Nome do Equipamento",
   MaterialID: "ID do Material",

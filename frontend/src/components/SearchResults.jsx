@@ -1,5 +1,8 @@
 import { useState } from 'react';
+<<<<<<< HEAD
 import PropTypes from 'prop-types';
+=======
+>>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
 import { translateKey } from '../translations';
 import './SearchResults.css';
 
@@ -88,6 +91,7 @@ function PaginatedTable({ group, highlightedTerm, itemsPerPage = 15 }) {
   );
 }
 
+<<<<<<< HEAD
 PaginatedTable.propTypes = {
   group: PropTypes.shape({
     category: PropTypes.string,
@@ -97,6 +101,8 @@ PaginatedTable.propTypes = {
   itemsPerPage: PropTypes.number,
 };
 
+=======
+>>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
 function SearchResults({ results, highlightedTerm }) {
   if (!results || results.length === 0) {
     return (
@@ -123,6 +129,7 @@ function SearchResults({ results, highlightedTerm }) {
   );
 }
 
+<<<<<<< HEAD
 SearchResults.propTypes = {
   results: PropTypes.arrayOf(
     PropTypes.shape({
@@ -133,4 +140,6 @@ SearchResults.propTypes = {
   highlightedTerm: PropTypes.string,
 };
 
+=======
+>>>>>>> d57551ef73b29f3127b61637c07b2ad1e772d986
 export default SearchResults;

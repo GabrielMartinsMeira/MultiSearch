@@ -2,7 +2,7 @@ package com.multisearch.controller;
 
 import com.multisearch.dto.SearchResultDTO;
 import com.multisearch.service.DataService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
@@ -11,15 +11,19 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 public class SearchController {
 
-    @Autowired
-    private DataService dataService;
+    private final DataService dataService;
 
-    @GetMapping("/search")
-    public List<SearchResultDTO> search(@RequestParam String query) {
+    public SearchController(DataService dataService) {
+        this.dataService = dataService;
+    }
+
+    @GetMapping(value = "/search", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<SearchResultDTO> search(
+            @RequestParam(required = false, defaultValue = "") String query) {
         return dataService.search(query);
     }
 
-    @GetMapping("/all")
+    @GetMapping(value = "/all", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<SearchResultDTO> getAll() {
         return dataService.getAllData();
     }
