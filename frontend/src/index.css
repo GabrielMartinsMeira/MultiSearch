@@ -9,20 +9,20 @@
   --surface-hover: #e9ecef;
   --border-color: #e0e0e0;
   --border-radius: 8px;
-  --shadow: 0 4px 6px rgba(0,0,0,0.05);
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 body.dark-mode {
   --primary-color: #5bbd5b;
-  --bg-color: #121212;
+  --bg-color: #252529;
   --text-dark: #e0e0e0;
   --text-light: #a0a0a0;
-  --white: #1e1e1e;
-  --surface-bg: #1e1e1e;
-  --surface-header: #2a2a2a;
-  --surface-hover: #333333;
+  --white: #2a2a2d;
+  --surface-bg: #2a2a2d;
+  --surface-header: #35353a;
+  --surface-hover: #3f3f45;
   --border-color: #444444;
-  --shadow: 0 4px 6px rgba(0,0,0,0.2);
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 * {
