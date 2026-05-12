@@ -1,19 +1,20 @@
 package com.multisearch.controller;
 
-import com.multisearch.dto.SearchResultDTO;
-import com.multisearch.dto.SalesOrderDTO;
-import com.multisearch.dto.WorkforceDTO;
-import com.multisearch.service.DataService;
+import java.util.List;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
-import java.util.List;
+import com.multisearch.dto.SalesOrderDTO;
+import com.multisearch.dto.SearchResultDTO;
+import com.multisearch.dto.WorkforceDTO;
+import com.multisearch.service.DataService;
 
 import static org.hamcrest.Matchers.*;
 import static org.mockito.ArgumentMatchers.anyString;
@@ -29,7 +30,7 @@ class SearchControllerTest {
         @Autowired
         private MockMvc mockMvc;
 
-        @MockBean
+        @MockitoBean
         private DataService dataService;
 
         // --- Mock data with realistic content ---
