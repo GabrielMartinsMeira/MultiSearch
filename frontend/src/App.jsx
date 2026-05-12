@@ -45,7 +45,7 @@ function App() {
       })
       .catch(err => {
         console.error("Erro ao buscar:", err);
-        setBackendError("Não foi possível conectar ao servidor. Verifique se o backend está rodando.");
+        setBackendError("Não foi possível conectar ao servidor!");
         setIsSearching(false);
       });
   };
