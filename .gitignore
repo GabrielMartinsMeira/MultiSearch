@@ -15,9 +15,6 @@ backend/*.class
 backend/*.jar
 backend/*.war
 backend/*.ear
-backend/.mvn/
-backend/mvnw
-backend/mvnw.cmd
 
 # Editor directories and files
 .vscode/
