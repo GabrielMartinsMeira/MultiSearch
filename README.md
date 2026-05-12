@@ -2,7 +2,7 @@
 
 O **MultiSearch** é uma solução Full Stack desenvolvida para centralizar a busca de informações em sistemas ERP. Ele permite que o usuário pesquise em diversas tabelas simultaneamente (Pedidos de Venda, Materiais, Equipamentos e Mão de Obra) e visualize os resultados de forma organizada e intuitiva. Atualmente, o projeto está configurado com dados de uma **Indústria de Ferramentas**.
 
-> 📸 *Adicione um screenshot ou GIF da interface aqui (ex: `![Screenshot da Interface](docs/ui-demo.png)`)*
+<img width="1902" height="906" alt="Main screen MultiSearch" src="https://github.com/user-attachments/assets/939b58d4-33c2-4b5d-b2b8-480d69288605" />
 
 ## 🛠️ Tecnologias Utilizadas
 
