@@ -3,7 +3,6 @@ import SearchBar from './components/SearchBar';
 import SearchResults from './components/SearchResults';
 import { translateKey } from './translations';
 import './App.css';
-// import data from '../data/data.json'; 
 
 function App() {
   const [query, setQuery] = useState('');
@@ -20,43 +19,6 @@ function App() {
       document.body.classList.remove('dark-mode');
     }
   }, [isDarkMode]);
-
-  /* 
-  const categoryNames = {
-    sales_orders: 'Pedidos de Venda',
-    purchase_orders: 'Pedidos de Compra',
-    equipments: 'Equipamentos',
-    materials: 'Materiais',
-    workforce: 'Mão de Obra'
-  };
-
-  const resultsAndSuggestions = useMemo(() => {
-    if (!query.trim()) return { results: null, suggestions: [] };
-    const lowerQuery = query.toLowerCase();
-    const matchedCategories = [];
-    const suggestionsMap = new Map();
-
-    for (const [key, items] of Object.entries(data)) {
-      const matchedItems = items.filter(item => {
-        let isMatch = false;
-        for (const [propName, val] of Object.entries(item)) {
-          const stringValue = String(val);
-          if (stringValue.toLowerCase().includes(lowerQuery)) {
-            isMatch = true;
-            if (!suggestionsMap.has(stringValue)) {
-              suggestionsMap.set(stringValue, { text: stringValue, group: translateKey(propName) });
-            }
-          }
-        }
-        return isMatch;
-      });
-      if (matchedItems.length > 0) {
-        matchedCategories.push({ category: categoryNames[key] || key, items: matchedItems });
-      }
-    }
-    return { results: matchedCategories, suggestions: Array.from(suggestionsMap.values()).slice(0, 6) };
-  }, [query]);
-  */
 
   const [results, setResults] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
@@ -159,7 +121,7 @@ function App() {
           />
         </div>
         <div className="theme-toggle">
-          <svg className="dark-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg className="dark-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
           <span className="theme-text">Dark Mode</span>

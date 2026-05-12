@@ -40,8 +40,7 @@
 }
 
 .group-count {
-  color: #e0e0e0;
-  /* Cinza claro para contrastar no Verde */
+  color: #dddcdc;
   font-size: 0.95rem;
   font-weight: 600;
 }
@@ -96,7 +95,7 @@
 }
 
 .results-table tbody tr.highlight-row {
-  background-color: rgba(102, 204, 102, 0.2); /* Verde semitransparente (#66CC66) */
+  background-color: rgba(102, 204, 102, 0.2);
   border-left: 4px solid var(--primary-color);
 }
 
